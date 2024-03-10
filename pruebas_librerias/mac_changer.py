@@ -1,5 +1,8 @@
 import subprocess
 
-subprocess.call("ifconfig eth0 down", shell=True)
-subprocess.call("ifconfig eth0 hw ether 00:11:22:33:44:55", shell=True)
-subprocess.call("ifconfig eth0 up", shell=True)
+interface = input("Inserta el nombre de tu interfaz:")
+mac = input("Inserta la MAC deseada:")
+
+subprocess.call(["ifconfig", interface, "down"])
+subprocess.call(["ifconfig", interface, "hw", "ether", mac])
+subprocess.call(["ifconfig", interface, "up"])
