@@ -1,3 +1,5 @@
 scapy
 python-nmap
 requests
+inquirer
+signal
