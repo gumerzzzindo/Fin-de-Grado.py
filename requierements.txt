@@ -3,3 +3,4 @@ python-nmap
 requests
 inquirer
 signal
+beautifulsoup4
