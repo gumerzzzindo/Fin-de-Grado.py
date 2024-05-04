@@ -50,3 +50,19 @@ El objetivo de este proyecto es diseñar y desarrollar un conjunto de herramient
 - **Tareas:**
   - Implementar un sniffer que capture y analice paquetes de red.
   - Incorporar funcionalidades para la identificación de posibles amenazas o actividades maliciosas.
+# Manual de uso e instalación
+Este es un breve tutorial sobre cómo clonar este repositorio y luego instalar las dependencias necesarias para ejecutar el proyecto.
+
+## Clonar el Repositorio
+
+Para clonar este repositorio a tu máquina local, puedes seguir estos pasos:
+
+```bash
+git clone https://github.com/gumerzzindo/Fin-de-Grado.py
+```
+## Descargar dependencias
+Para descargar las dependencias de este proyecto simplemente tendremos que lanzar
+```bash
+apt install pip -y
+pip install -r requierements.txt
+```
