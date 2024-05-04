@@ -58,7 +58,7 @@ Este es un breve tutorial sobre cómo clonar este repositorio y luego instalar l
 Para clonar este repositorio a tu máquina local, puedes seguir estos pasos:
 
 ```bash
-git clone https://github.com/gumerzzindo/Fin-de-Grado.py
+git clone https://github.com/gumerzzzindo/Fin-de-Grado.py
 ```
 ## Descargar dependencias
 Para descargar las dependencias de este proyecto simplemente tendremos que lanzar
