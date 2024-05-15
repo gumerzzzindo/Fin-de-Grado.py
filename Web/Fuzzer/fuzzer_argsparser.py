@@ -1,5 +1,6 @@
 import argparse
 import requests
+from colorama import Fore
 
 def fuzz(url, payloads):
     for payload in payloads:
@@ -7,7 +8,7 @@ def fuzz(url, payloads):
         try:
             response = requests.get(test_url)
             if response.status_code != 404:
-                print(f"Payload exitoso: {payload}")
+                print(f"{Fore.GREEN}[+] Payload exitoso: {payload}")
         except requests.exceptions.RequestException as e:
             print(f"Error al enviar solicitud: {e}")
 
